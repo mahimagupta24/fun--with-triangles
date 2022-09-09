@@ -1,5 +1,5 @@
 const input=document.querySelectorAll(".side-input")
-const hypotenuseBtn=document.querySelector("#calculate-hypotenuse")
+const hypotenuseBtn=document.querySelector("#calculate")
 const output=document.querySelector("#output")
 hypotenuseBtn.addEventListener('click',calculateHypotenuse)
 

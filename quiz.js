@@ -3,7 +3,7 @@ const submitBtn = document.querySelector("#submit-button");
 const output = document.querySelector("#output");
 
 submitBtn.addEventListener("click", calculateScore);
-const correctAnswer = ["90°", "right angled"];
+const correctAnswer = ["90°", "right angled","one right angle","a+b+c","30°","45°"];
 
 function calculateScore() {
   let score = 0;
@@ -17,5 +17,5 @@ function calculateScore() {
     
 }
 console.log(score)
-output.innerText="Your score is" + score;
+output.innerText="Your score is " + score;
 }
