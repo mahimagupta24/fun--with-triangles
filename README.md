@@ -3,7 +3,12 @@ This is app built using vanilla javascript with will help you to learn about tri
 
 It includes -
 
-a.a quiz about triangles
-b.hypotenuous calculator of triangle
-c.area calculator of triangle
-d.checks if the entered angles forms a triangle or not.
+a.checks if the entered angles forms a triangle or not. 
+
+b.quiz about triangles
+
+c.hypotenuous calculator of triangle.
+
+d.area calculator of triangle
+
+
