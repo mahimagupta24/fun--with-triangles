@@ -49,8 +49,9 @@ button{
     background-color: #7c3aed;
     color: white;
     border-radius: 0.5rem;
-    margin:auto;
+    margin: auto;
     margin-top: 1rem;
+    margin-bottom: 1rem;;
     font-size:large;
 }
 .quiz-main {
@@ -64,3 +65,4 @@ padding:1rem 0;
 margin:1rem auto;
 width:none;
 }
+
