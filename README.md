@@ -9,6 +9,14 @@ b.quiz about triangles
 
 c.hypotenuous calculator of triangle.
 
-d.area calculator of triangle
+d.area calculator of triangle.
+
+It is made using:
+
+1.HTML
+
+2.Javascript
+
+3.CSS
 
 
