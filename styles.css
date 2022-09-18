@@ -28,9 +28,6 @@ input{
     min-height: 2rem;
     margin:2rem auto;
 }
-input label{
-    max-width: 250px;
-}
 
 main{
     text-align: center;
@@ -82,6 +79,7 @@ footer {
   footer p{
     text-align: center;
     font-size: x-large;
+    margin-bottom: 0;
   }
 img{
     width:40px;
