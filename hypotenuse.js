@@ -10,9 +10,12 @@ function calculateSum(a,b){
 
 function calculateHypotenuse(){
     const sum=calculateSum(Number(input[0].value),Number(input[1].value))
-    if (Number(input[0].value) <=0||Number(input[1].value) <= 0) {
-        output.innerText="Input can't be empty and it should be greater than zero"
+    if (Number(input[0].value) ==""||Number(input[1].value) == "") {
+        output.innerText="Please enter both the values."
+    }else if(Number(input[0].value<=0)||Number(input[1].value<=0)){
+        output.innerText="Values can't be negative."
     }
+
     else {
     const result=Math.sqrt(sum)
     output.innerText="The hypotenuse of the given numbers is "+result
