@@ -62,6 +62,9 @@ button{
     margin-bottom: 1rem;;
     font-size:large;
 }
+#output{
+    padding-bottom: 1rem;
+}
 .quiz-main {
     margin: 2rem auto;
     width: 90%;
