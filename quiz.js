@@ -3,19 +3,24 @@ const submitBtn = document.querySelector("#submit-button");
 const output = document.querySelector("#output");
 
 submitBtn.addEventListener("click", calculateScore);
-const correctAnswer = ["90°", "right angled","one right angle","a+b+c","30°","45°"];
-
+const correctAnswers = {
+  question1: "90°",
+  question2: "right angled",
+  question3: "one right angle",
+  question4: "a+b+c",
+  question5: "30°",
+  question6: "45°",
+};
 function calculateScore() {
   let score = 0;
-  let index = 0;
-  const formResult =  new FormData(quizForm)
-  for (let value of formResult.values()) {
-    if (value === correctAnswer[index]) {
+  const formResult = new FormData(quizForm);
+  for (let key of formResult.keys()) {
+    if (correctAnswers[key] === formResult.get(key)) {
       score = score + 1;
     }
-    index = index + 1;
-    
+  }
+  // console.log(score);
+  output.innerText = "Your score is " + score;
 }
-console.log(score)
-output.innerText="Your score is " + score;
-}
+  
+
