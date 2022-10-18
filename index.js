@@ -15,7 +15,7 @@ function isTriangle(){
     if(Number(input[0].value<=0)||Number(input[1].value<=0)||Number(input[2].value<=0)){
         output.innerText="Invalid angles"
     }
- else if(sum=""){
+ if(sum===""){
         output.innerText="Please insert the required input."
     }else if(sum===180){
     output.innerText="Yipee!its a triangle"
